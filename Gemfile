@@ -59,5 +59,9 @@ end
 gem 'puma'
 gem 'bootstrap-sass', '~> 3.0'
 
+# FFaker, is used to easily generate fake data: names, addresses,etc.
+gem 'ffaker'
 
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
