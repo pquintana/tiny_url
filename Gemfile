@@ -47,6 +47,9 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+
+  # The travis gem includes both a command line client and a Ruby library to interface with a Travis CI service
+  gem 'travis'
 end
 
 group :test do
